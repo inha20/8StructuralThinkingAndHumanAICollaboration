@@ -2,60 +2,53 @@
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue?style=flat-square&logo=github)](https://inha20.github.io/8StructuralThinkingInAIEra/)
 [![Field](https://img.shields.io/badge/Field-Cognitive%20Science%20%7C%20AI%20Education-orange?style=flat-square)](https://inha20.github.io/8StructuralThinkingInAIEra/)
-[![Track](https://img.shields.io/badge/Track-B%3A%20AI%20%26%20Education%20Synthesis-success?style=flat-square)](https://inha20.github.io/8StructuralThinkingInAIEra/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 **논문 제목:** 생성형 AI 시대의 구조적 사고와 인간-AI 연구 협력  
-**Title:** Structural Thinking and Human-AI Research Collaboration in the Generative AI Era  
+**Title:** Structural Thinking and Human-AI Research Collaboration in the Generative AI Era: A Framework Proposal, a Case Study, and Educational Implications  
 **저자:** 최종훈 (Jonghun Choi) — 인하공업전문대학 졸업 · 독립 연구자  
-**GitHub Pages:** [웹 논문 및 대화형 분석 포털 보기](https://inha20.github.io/8StructuralThinkingInAIEra/)  
+**GitHub Pages:** [웹 논문 및 대화형 포털 보기](https://inha20.github.io/8StructuralThinkingInAIEra/)  
+
+> 이 저장소의 논문은 자기완결적입니다. 같은 저자의 다른 저장소를 읽지 않아도 정의, 가설, 사례를 본문에서 따라갈 수 있습니다.
 
 ---
 
 ## 📌 Keywords
-Structural thinking, Generative AI, Human-AI collaboration, Structure Recognition Theory (SRT), Human-AI Research Continuity Theory (HARCT), Metacognition, Educational epistemology, Karnaugh maps, Prompt engineering, Symbiotic research.
+Structural thinking, Generative AI, Human-AI collaboration, Structure Recognition Theory (SRT), Human-AI Research Continuity Theory (HARCT), Metacognition, Distributed research memory, AI education, Karnaugh maps.
 
 ---
 
 ## 📖 Abstract (초록)
 
-대규모 언어 모델(LLM)과 생성형 AI의 비약적 발전은 "지식 습득과 정답 도출"이라는 전통적 교육 및 연구 패러다임의 근본적 재정의를 요구한다. AI는 방대한 통계적 연관성을 바탕으로 즉각적인 답안을 생성할 수 있으나, 문제의 이면에 내재된 **구조(Structure)를 직관하고 대칭성을 발견하는 능력**은 여전히 인간 고유의 인지적 영역으로 남아 있다.
+생성형 AI는 정형화된 문제의 답을 빠르게 산출한다. 이 환경에서 인간 연구자와 학습자에게 남는 역할이 무엇인지, 그리고 AI와 장기 연구를 어떻게 수행할지를 다룬다. 본 논문은 **이론 제안 논문**이며 가설의 검증 결과를 보고하지 않는다.
 
-본 연구는 선행 연구(P1, P4, P5)를 단일한 학술적 체계로 융합하여:
-1. **구조 인식 이론 (SRT: Structure Recognition Theory)**: 인간이 복잡한 표상에서 불변성과 패턴을 발견하는 인지 메커니즘을 10대 가설(H1~H10)로 정립하고,
-2. **인간-AI 연구 연속성 이론 (HARCT: Human-AI Research Continuity Theory)**: 인간의 직관적 구조 가설 설정과 AI의 계산적·대수적 검증이 상호작용하는 공생적 연구 프로세스를 규명하며,
-3. **교육적 함의 (Educational Implications)**: 결과 중심의 문제 풀이 교육에서 탈피하여 구조적 추론과 메타인지 능력을 함양하는 생성형 AI 시대의 미래 교육 모델을 제시한다.
+1. **SRT (Structure Recognition Theory):** 6단계 인지 흐름, 9단계 질문 계층, 10개 가설(H1~H10), 일부 가설의 검증 가능한 예측.
+2. **HARCT (Human-AI Research Continuity Theory):** 분산 연구 기억, 핸드오버 프로토콜, 인지적 분업.
+3. **단일 사례 연구 (n=1):** 한 연구자의 수학 연구 프로젝트에서 세 에피소드. 공유 기억이 오류도 전파한다는 점을 드러내어 독립 검증 단계를 이론에 추가한다.
+4. **교육적 함의:** 과정 중심 교육 제안과 파일럿 연구 설계.
 
 ---
 
-## 🧠 핵심 이론 체계 (Core Theoretical Frameworks)
+## 🧠 핵심 구성
 
-### 1. 구조 인식 이론 (SRT) 10대 가설 체계
-| 번호 | 가설명 | 핵심 명제 |
+### SRT 10개 가설 (요약)
+| 번호 | 가설 | 핵심 명제 |
 |:---:|:---|:---|
-| **H1** | 구조 우선 가설 | 인간은 세부 수치보다 전체적인 대칭과 기하학적 형태를 먼저 파악함 |
-| **H2** | 표상 의존성 가설 | 동일한 진리표라도 카르노맵 등 표상 방식에 따라 인지 부하가 현저히 감소함 |
-| **H3** | 대칭 감지 가설 | 회전·반사 등 기하학적 대칭성을 발견할 때 통찰(Aha! moment)이 발생함 |
-| **H4** | 불변성 추적 가설 | 변수 치환이나 축 변환 속에서도 변하지 않는 본질적 특성을 인지함 |
-| **H5** | 점진적 추상화 | 구체적 0/1 격자 관찰에서 $D_4, S_4$ 대칭군 추상 대수 구조로 사고가 전이됨 |
-| **H6** | 오류 교정 유도 | 시각적 격자의 어긋남을 통해 대수적 계산 실수를 직관적으로 자가 교정함 |
-| **H7** | 인지 압축 가설 | 65,536개의 복잡한 함수 공간을 동치류와 대칭 레이어로 압축하여 이해함 |
-| **H8** | 교차 검증 촉진 | 기하학적 직관과 기호 대수적 계산의 상호 피드백이 확신도를 극대화함 |
-| **H9** | 직관 전이 가설 | 카르노맵에서 체득된 구조적 사고는 타 분야 알고리즘 설계로 전이됨 |
-| **H10**| AI 협업 증폭 | 구조적 프레임워크를 갖춘 인간 연구자는 AI의 잠재력을 수 배 이상 인출함 |
+| H1 | Structure Discoverer | 인간 인지는 요소보다 요소 사이의 구조를 우선 포착하도록 편향되어 있다 |
+| H2 | Representation Transformation | 표상이 바뀌면 인지 부하와 통찰이 달라진다 |
+| H3 | Attention Filter | 연구자는 대칭의 붕괴나 극단적 규칙성에 주의를 집중한다 |
+| H4 | Significance Filter | 기존 이론을 재편할 잠재력이 있는 패턴을 선별한다 |
+| H5 | Explanation Anticipation | 패턴을 발견하면 설명 원리가 있다고 기대한다 |
+| H6 | Explanatory Significance | 연구의 가치는 설명력으로 결정된다 |
+| H7 | Mature Structure Discoverer | 훈련된 연구자는 구조 템플릿을 새 문제에 투영한다 |
+| H8 | Concept-as-Lens | 정립된 개념은 새 대상을 보는 렌즈가 된다 |
+| H9 | Concept Evolution | 연구 발전은 개념적 렌즈의 정교화 과정이다 |
+| H10 | Generative Concept | 완성도 높은 개념은 새로운 연구 질문을 만든다 |
 
-### 2. 인간-AI 협업 모델 (HARCT: 공생적 연구 순환)
-```
-[인간 연구자]                                      [생성형 AI (LLM / Agent)]
-  │                                                   │
-  ├─ 1. 시각적 관찰 및 구조적 직관 ───────────────────►│ (인간이 핵심 가설 제시)
-  │                                                   │
-  │◄──────────────── 2. 대수적 증명 및 계산 검증 ──────┤ (AI가 Burnside Lemma 계산)
-  │                                                   │
-  ├─ 3. 의미 해석 및 교육적 통찰 확장 ───────────────►│ (인간이 인지적 의미 부여)
-  │                                                   │
-  │◄──────────────── 4. 체계화, 코드화 및 시각화 ──────┤ (AI가 대화형 웹 및 문서 구축)
-```
+이 가설들은 **아직 실증되지 않았습니다.** 논문 3.4절에 검증 가능한 예측을 제시합니다.
+
+### 공생적 연구 순환 (5단계)
+인간 직관 → AI 형식화 → AI 연역·계산과 인간 검토 → **독립 검증** → 인간 가치 부여 → 분산 기억 저장
 
 ---
 
@@ -63,25 +56,22 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
 
 ```
 8StructuralThinkingInAIEra/
-├─ README.md                               ← 저장소 안내 및 학술 요약 (본 문서)
-├─ index.html                              ← 대화형 분석 포털 및 웹 논문 (가설 탐색기)
-├─ paper/
-│  └─ StructuralThinkingInAIEra.md         ← 완성된 통합 AI/교육 학술 논문 전문
-└─ images/                                 ← 인지 구조도 및 연구 협력 흐름도
+├─ README.md                               ← 저장소 안내 (본 문서)
+├─ index.html                              ← 대화형 웹 논문 포털
+└─ paper/
+   └─ StructuralThinkingInAIEra.md         ← 논문 전문
 ```
 
 ---
 
-## 🌐 상호 연결 연구 생태계 (Research Ecosystem)
+## 🌐 관련 저장소 (선택 사항, 읽지 않아도 됨)
 
-| ID | 저장소 | 핵심 내용 |
-|:---:|:---|:---|
-| **P1** | [1KMapStructureInvariance](https://github.com/inha20/1KMapStructureInvariance) | 인간 구조적 사고의 교육적 의미와 카르노맵 패턴 |
-| **P4** | [4StructureRecognitionTheory](https://github.com/inha20/4StructureRecognitionTheory) | 구조 인식 이론 (SRT) 원본 가설 및 인지 모형 |
-| **P5** | [5HumanAIResearchCollaboration](https://github.com/inha20/5HumanAIResearchCollaboration) | 인간-AI 연구 연속성 이론 (HARCT) 실증 분석 |
-| **P7** | [7GroupTheoryBooleanUnification](https://github.com/inha20/7GroupTheoryBooleanUnification) | 군론적 통합 수학 논문 (Track A) |
-| **P8** | **8StructuralThinkingInAIEra (본 저장소)** | **SRT + HARCT 통합 인지·교육 논문 (Track B)** |
-| **Hub** | [Research-Portfolio](https://github.com/inha20/Research-Portfolio) | 전체 연구 프로그램 통합 포털 |
+이 논문은 저자의 **초기 연구 노트**(저장소 1~6)에서 출발했지만 그 내용을 전제로 하지 않습니다. 아래는 본 논문의 사례로 쓰인 수학 연구와 연구 프로그램 포털입니다.
+
+| 저장소 | 내용 |
+|:---|:---|
+| [7GroupTheoryBooleanUnification](https://github.com/inha20/7GroupTheoryBooleanUnification) | 사례에 쓰인 수학 논문 (카르노맵 대칭 분류) |
+| [Research-Portfolio](https://github.com/inha20/Research-Portfolio) | 전체 연구 프로그램 포털 |
 
 ---
 
