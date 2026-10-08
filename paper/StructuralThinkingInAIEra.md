@@ -46,6 +46,18 @@
 
 **참고문헌에 대한 주.** 이 논문의 이전 판의 참고문헌 일부는 AI가 생성한 목록이었고 본문에서 인용되지 않았다. 이번 개정에서는 본문에서 실제로 인용하는 문헌만 남기고, 각 문헌의 존재와 서지 정보를 개정 시점에 확인했다.
 
+### 1.5 관련 연구와 본 논문의 위치
+SRT와 HARCT의 구성 요소는 기존 연구와 겹친다. 이 절은 그 관계를 밝히고, 본 논문이 새로움을 주장하는 범위를 한정한다.
+
+- **구조 대 표면 특징.** 숙련자는 문제를 표면 특징이 아니라 깊은 구조(물리 원리)로 분류하고, 초심자는 표면 특징으로 분류한다 (Chi, Feltovich & Glaser, 1981). 관계 구조를 대응시키는 능력을 유추의 핵심으로 보는 이론도 있다 (Gentner, 1983). SRT가 말하는 "구조 인식"은 이 전통과 같은 방향의 개념이며, 본 논문은 이를 부울 함수 같은 형식 대상의 연구 과정에 적용해 6단계 흐름과 가설로 구체화한다.
+- **표현의 효과.** 같은 정보라도 도식 표현이 탐색과 지각적 추론을 쉽게 한다 (Larkin & Simon, 1987). 카르노맵 사례(3.1절)는 이 논의의 한 사례로 읽을 수 있다. H2는 이 일반 주장을 진리표와 카르노맵의 비교로 좁힌 가설이다.
+- **분산된 인지.** 인지가 개인의 머리 밖의 도구와 환경으로 확장된다는 관점이 있다 (Hutchins, 1995; Clark & Chalmers, 1998). HARCT의 "분산 연구 기억"은 이 관점을 인간-AI 연구의 인계 문서와 저장소에 적용한 것이다.
+- **AI의 한계.** 언어 모델은 근거 없는 내용을 생성하며 (Ji et al., 2023), 학술 인용에서는 ChatGPT가 만든 인용의 상당 부분이 실재하지 않았다 (Walters & Wilder, 2023: GPT-3.5 55%, GPT-4 18%). 긴 입력에서는 중간에 놓인 정보의 활용이 떨어진다 (Liu et al., 2024). 컨텍스트 한계를 계층적 메모리로 보완하려는 시스템 연구도 있다 (Packer et al., 2023). HARCT는 같은 문제를 시스템이 아니라 연구자가 쓰는 문서와 절차의 수준에서 다룬다.
+- **교육.** 안내가 적은 문제 중심 수업은 초심자에게 비효율적일 수 있다는 비판이 있다 (Kirschner, Sweller & Clark, 2006; 인지 부하 이론은 Sweller, 1988). 6장의 과정 중심 교육 제안은 이 비판을 받아들여, 초심자에게는 명시적 안내와 단계적 제시를 함께 두어야 한다는 조건을 요구한다.
+- **저자성과 공개.** 출판 윤리 지침은 AI를 저자로 올릴 수 없고 AI 사용을 공개하도록 요구한다 (COPE; ICMJE). 1.4절의 공개는 이 요구를 따른다.
+
+**본 논문의 한계.** 위 조사는 웹 검색에 기반한 제한적 조사이며, 인간-AI 협업, 연구 방법론, 지식 인계의 문헌 전반을 체계적으로 검토한 것이 아니다. 따라서 SRT와 HARCT가 선행 연구에 없다는 주장은 하지 않는다. 본 논문이 제안하는 것은 이 개념들을 하나의 연구 흐름(6단계 모델과 인계 절차)으로 묶고 검증 가능한 가설로 제시하는 일이며, 그 유용성은 7.2절의 검증 설계로 확인해야 한다.
+
 ---
 
 ## 2. 생성형 AI와 인간 사고의 구조적 차이
@@ -259,10 +271,10 @@ HARCT는 연구 저장소(Git)를 인간과 AI가 공유하는 외재화된 작�
 - **관찰:** 인간의 직관적 가설이 질문의 방향을 정했고, AI의 형식화가 증명을 만들었다 (HARCT의 분업). 다만 형식화의 세부는 후속 점검에서 수정되어야 했다.
 
 #### 에피소드 2: 세션 단절, 인계, 그리고 계산 오류
-- 이전 세션의 AI는 일부 분석만 수행하고 종료되었다. 새 세션의 AI는 TODO와 HANDOVER 문서를 읽고 연구 맥락을 복원하여 변수 순열 아래의 궤도 개수를 Burnside 보조정리로 계산했다.
-- 이 계산에서 4-순환의 고정 함수 수가 $2^6 = 64$가 아니라 $16$으로 적용되어, 전체 공간 궤도 수가 정답 3,984가 아닌 4,016으로 보고되었다. 이 값은 수학 원고와 저장소 안내 문서, 그리고 본 논문의 이전 판에 기록되어 있었다. 기록만으로는 이 오류를 낸 주체가 인간인지 AI인지 구분할 수 없다.
-- 오류는 이후 독립적인 전수 열거(65,536개 함수의 궤도를 직접 세는 프로그램)로 발견되었고 정정되었다.
-- **관찰:** 인계 문서는 세션 간 맥락 복원에는 효과적이었지만, 문서에 오류가 있으면 그 오류도 함께 보존된다. 인계 문서 자체는 검증 수단이 아니다.
+- 이 연구는 여러 세션에 걸쳐 TODO와 HANDOVER 문서로 맥락을 이어 갔다. 이 부분의 세션 경위는 저자의 회고이며 공개 기록으로 교차 확인되지 않았다.
+- 확인 가능한 사실(저장소 커밋 이력)은 다음과 같다. 변수 순열 아래 전체 공간의 궤도 수가 정답 3,984가 아닌 4,016으로 적힌 문서가 있었다(4-순환의 고정 함수 수를 $2^6 = 64$가 아니라 $16$으로 적용한 값). 이 값은 자매 수학 논문 저장소의 첫 릴리스 README(2026-10-07)에 처음 나타났고, 같은 날 수학 원고 본문과 본 논문의 이전 판에도 기록되었다. 이전 단계의 연구 저장소 여섯 곳의 이력에는 이 값이 한 번도 나타나지 않았다. 즉 이 오류는 여러 연구의 결과를 하나의 문서로 합치는 단계에서 생겼다.
+- 오류는 2026-10-08, 자매 논문을 처음부터 다시 쓰면서 65,536개 함수의 궤도를 직접 세는 프로그램으로 발견되어 같은 날 정정되었다. 기록만으로는 이 오류를 낸 주체가 인간인지 AI인지 구분할 수 없다.
+- **관찰:** 인계·요약 문서는 맥락 복원에 효과적이었지만, 문서에 오류가 있으면 그 오류도 함께 보존되고 이후 문서로 전파되었다. 인계 문서 자체는 검증 수단이 아니다.
 
 #### 에피소드 3: 독립적 점검에서 드러난 추가 오류
 - 이 논문의 자매 수학 논문을 선행 문헌 없이 읽을 수 있는 형태로 다시 쓰면서, 모든 주장을 본문에서 도출하고 계산으로 재현하도록 요구했다. 그 과정에서 이전 세션과 검토를 통과해 있던 원고의 오류가 추가로 드러났다.
@@ -355,10 +367,18 @@ SRT는 인간이 구조를 인식하고 질문을 던지는 과정을, HARCT는 
 ## 참고문헌 / References
 
 1. Bender, E. M., & Koller, A. (2020). Climbing towards NLU: On meaning, form, and understanding in the age of data. *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*, 5185–5198.
-2. Clark, A., & Chalmers, D. (1998). The extended mind. *Analysis*, 58(1), 7–19.
-3. Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. *American Psychologist*, 34(10), 906–911.
-4. Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.
-5. Ji, Z., Lee, N., Frieske, R., et al. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys*, 55(12), Article 248.
-6. Kadavath, S., et al. (2022). Language Models (Mostly) Know What They Know. *arXiv:2207.05221*.
-7. Larkin, J. H., & Simon, H. A. (1987). Why a diagram is (sometimes) worth ten thousand words. *Cognitive Science*, 11(1), 65–100.
-8. Vaswani, A., et al. (2017). Attention is All You Need. *Advances in Neural Information Processing Systems*, 30.
+2. Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2), 121–152.
+3. Clark, A., & Chalmers, D. (1998). The extended mind. *Analysis*, 58(1), 7–19.
+4. COPE (Committee on Publication Ethics). Authorship and AI tools (position statement); ICMJE. Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals (AI-assisted technology section).
+5. Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. *American Psychologist*, 34(10), 906–911.
+6. Gentner, D. (1983). Structure-mapping: A theoretical framework for analogy. *Cognitive Science*, 7(2), 155–170.
+7. Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.
+8. Ji, Z., Lee, N., Frieske, R., et al. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys*, 55(12), Article 248.
+9. Kadavath, S., et al. (2022). Language Models (Mostly) Know What They Know. *arXiv:2207.05221*.
+10. Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work. *Educational Psychologist*, 41(2), 75–86.
+11. Larkin, J. H., & Simon, H. A. (1987). Why a diagram is (sometimes) worth ten thousand words. *Cognitive Science*, 11(1), 65–100.
+12. Liu, N. F., Lin, K., Hewitt, J., et al. (2024). Lost in the middle: How language models use long contexts. *Transactions of the Association for Computational Linguistics*, 12, 157–173.
+13. Packer, C., Wooders, S., Lin, K., et al. (2023). MemGPT: Towards LLMs as operating systems. *arXiv:2310.08560*.
+14. Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. *Cognitive Science*, 12(2), 257–285.
+15. Vaswani, A., et al. (2017). Attention is All You Need. *Advances in Neural Information Processing Systems*, 30.
+16. Walters, W. H., & Wilder, E. I. (2023). Fabrication and errors in the bibliographic citations generated by ChatGPT. *Scientific Reports*, 13. https://doi.org/10.1038/s41598-023-41032-5
