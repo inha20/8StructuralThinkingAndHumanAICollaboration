@@ -2,8 +2,6 @@
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue?style=flat-square&logo=github)](https://inha20.github.io/8StructuralThinkingInAIEra/)
 [![Field](https://img.shields.io/badge/Field-Cognitive%20Science%20%7C%20AI%20Education-orange?style=flat-square)](https://inha20.github.io/8StructuralThinkingInAIEra/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-
 **논문 제목:** 생성형 AI 시대의 구조적 사고와 인간-AI 연구 협력  
 **Title:** Structural Thinking and Human-AI Research Collaboration in the Generative AI Era: A Framework Proposal, a Case Study, and Educational Implications  
 **저자:** 최종훈 (Jonghun Choi) — 인하공업전문대학 졸업 · 독립 연구자  
@@ -88,4 +86,4 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
 ```
 
 ---
-© 2026 Jonghun Choi (최종훈). Released under the MIT License.
+© 2026 Jonghun Choi (최종훈). All rights reserved.

@@ -42,7 +42,7 @@
 본 논문은 SRT(3장), HARCT(4장)와 두 이론을 결합한 연구 순환(5장), 교육적 제안(6장)을 제시한다. 4.7절의 사례 연구는 제안한 틀의 적용 가능성을 보이는 탐색적 관찰이며 가설의 통계적 검증이 아니다.
 
 ### 1.4 AI 사용 공개
-본 논문이 다루는 연구 프로젝트는 여러 AI 시스템(저자의 기록에 따르면 ChatGPT, Claude, ANTIGRAVITY)과 다중 세션으로 수행되었다. 각 시스템이 맡은 역할은 4.7절에 서술한다. 이와 별도로, 본 원고의 이번 개정(선행 저장소에 대한 의존 제거, 오류 정정, 구조 재편, 참고문헌 점검)에는 Claude(Anthropic)의 새 세션이 사용되었다. 이 세션은 프로젝트 당시의 세션들과 별개이며 그 대화 이력을 갖고 있지 않다. 이론의 제안, 사례의 선택과 해석, 결론의 책임은 저자에게 있다.
+본 논문이 다루는 연구 프로젝트는 여러 AI 시스템(저자의 기록에 따르면 ChatGPT, Claude, ANTIGRAVITY)과 다중 세션으로 수행되었다. 각 시스템이 맡은 역할은 4.7절에 서술한다. 이와 별도로, 본 원고의 이번 개정(선행 저장소에 대한 의존 제거, 오류 정정, 구조 재편, 참고문헌 점검)에는 Claude(Anthropic)의 새 세션들이 사용되었다. 이 세션들은 프로젝트 당시의 세션들과 별개이며 그 대화 이력을 갖고 있지 않다. 이론의 제안, 사례의 선택과 해석, 결론의 책임은 저자에게 있다.
 
 **참고문헌에 대한 주.** 이 논문의 이전 판의 참고문헌 일부는 AI가 생성한 목록이었고 본문에서 인용되지 않았다. 이번 개정에서는 본문에서 실제로 인용하는 문헌만 남기고, 각 문헌의 존재와 서지 정보를 개정 시점에 확인했다.
 
@@ -53,6 +53,9 @@ SRT와 HARCT의 구성 요소는 기존 연구와 겹친다. 이 절은 그 관�
 - **표현의 효과.** 같은 정보라도 도식 표현이 탐색과 지각적 추론을 쉽게 한다 (Larkin & Simon, 1987). 카르노맵 사례(3.1절)는 이 논의의 한 사례로 읽을 수 있다. H2는 이 일반 주장을 진리표와 카르노맵의 비교로 좁힌 가설이다.
 - **분산된 인지.** 인지가 개인의 머리 밖의 도구와 환경으로 확장된다는 관점이 있다 (Hutchins, 1995; Clark & Chalmers, 1998). HARCT의 "분산 연구 기억"은 이 관점을 인간-AI 연구의 인계 문서와 저장소에 적용한 것이다.
 - **AI의 한계.** 언어 모델은 근거 없는 내용을 생성하며 (Ji et al., 2023), 학술 인용에서는 ChatGPT가 만든 인용의 상당 부분이 실재하지 않았다 (Walters & Wilder, 2023: GPT-3.5 55%, GPT-4 18%). 긴 입력에서는 중간에 놓인 정보의 활용이 떨어진다 (Liu et al., 2024). 컨텍스트 한계를 계층적 메모리로 보완하려는 시스템 연구도 있다 (Packer et al., 2023). HARCT는 같은 문제를 시스템이 아니라 연구자가 쓰는 문서와 절차의 수준에서 다룬다.
+- **AI의 자기평가와 동조.** 모델이 외부 피드백 없이 자신의 추론을 교정하는 능력은 제한적이라는 보고가 있고 (Huang et al., 2024), AI 어시스턴트가 사용자의 견해에 맞춰 답하는 경향(sycophancy)도 보고되었다 (Sharma et al., 2023). 사람 쪽에서는 자동화의 출력에 대한 안일함(complacency)과 자동화 편향(automation bias)이 알려져 있다 (Parasuraman & Manzey, 2010). 4.7절에서 그럴듯한 오류가 검토를 통과한 현상은 이 문헌들과 같은 방향의 문제이며, 5.1절의 독립 검증 단계가 필요한 이유이다.
+- **인간-AI 상호작용과 정보 관리.** 인간-AI 상호작용의 설계 지침이 제안되어 있다 (Amershi et al., 2019). 개인이 정보를 수집·조직·재발견하는 활동은 개인 정보 관리(PIM) 연구에서 다루어 왔다 (Jones, 2007). HARCT의 인계 문서와 저장소는 이 활동을 연구 프로젝트와 AI 세션 사이의 인계로 옮겨 놓은 것으로 볼 수 있다.
+- **AI 리터러시.** AI와 상호작용하고 이를 비판적으로 평가하는 데 필요한 역량의 틀이 제안되어 있다 (Long & Magerko, 2020). 6.3절의 세 단계는 이 틀과의 대응을 확인하지 않았다.
 - **교육.** 안내가 적은 문제 중심 수업은 초심자에게 비효율적일 수 있다는 비판이 있다 (Kirschner, Sweller & Clark, 2006; 인지 부하 이론은 Sweller, 1988). 6장의 과정 중심 교육 제안은 이 비판을 받아들여, 초심자에게는 명시적 안내와 단계적 제시를 함께 두어야 한다는 조건을 요구한다.
 - **저자성과 공개.** 출판 윤리 지침은 AI를 저자로 올릴 수 없고 AI 사용을 공개하도록 요구한다 (COPE; ICMJE). 1.4절의 공개는 이 요구를 따른다.
 
@@ -75,7 +78,7 @@ $$P(w_t \mid w_1, \dots, w_{t-1}; \theta)$$
 
 ### 2.2 인간 사고의 세 가지 특성
 1. **체화된 이해.** 인간은 카르노맵의 체커보드 패턴을 비트열이 아니라 체스판과 같은 시각적 형태(게슈탈트)로 지각한다. 표상에 따라 문제 해결의 난이도가 달라진다는 것은 인지과학에서 오래 논의되어 왔다 (Larkin & Simon, 1987).
-2. **메타인지.** 자신의 인지 상태를 감시하고 평가하는 능력이다 (Flavell, 1979). LLM이 자신의 답의 정확성을 어느 정도 추정할 수 있다는 보고도 있다 (Kadavath et al., 2022). 본 논문의 주장은 "AI에게 메타인지가 없다"가 아니라, 독립된 검증 없이는 AI의 자기평가를 신뢰하기 어렵다는 것이다. 4.7절의 사례가 이 점을 예시한다.
+2. **메타인지.** 자신의 인지 상태를 감시하고 평가하는 능력이다 (Flavell, 1979). LLM이 자신의 답의 정확성을 어느 정도 추정할 수 있다는 보고도 있다 (Kadavath et al., 2022). 반면 외부 피드백 없이 스스로 추론을 교정하는 능력은 제한적이라는 보고도 있다 (Huang et al., 2024). 본 논문의 주장은 "AI에게 메타인지가 없다"가 아니라, 독립된 검증 없이는 AI의 자기평가를 신뢰하기 어렵다는 것이다. 4.7절의 사례가 이 점을 예시한다.
 3. **목적 지향적 질문 생성.** 인간은 "왜 이것이 중요한가"라는 유의성을 부여하며 연구 질문을 정한다.
 
 ### 2.3 비교 요약
@@ -92,7 +95,7 @@ $$P(w_t \mid w_1, \dots, w_{t-1}; \theta)$$
 환각의 한 형태는 형식은 정확하지만 실재하지 않거나 관련 없는 출처를 만드는 것이다. 본 연구 프로젝트에서 두 가지 경험이 있었다.
 
 - **존재하지 않는 논문 목록.** 프로젝트 초기에 연구자가 특정 주제의 논문 목록을 요청했을 때, 저자명, 발행 연도, 학술지명까지 갖춘 목록이 제시되었으나 그중 일부는 실제로 검색되지 않았다 (저자의 기록이며 해당 대화는 공개되지 않는다).
-- **그럴싸한 참고문헌 목록.** 본 논문의 이전 판의 참고문헌 일부는 저자가 AI에게 그럴듯한 목록을 만들어 달라고 요청해 얻은 것이었다. 그 항목들은 본문의 주장과 연결되지 않은 채 나열되어 있었다. 이번 개정에서는 본문이 실제로 인용하는 6건만 남기고, 각 문헌의 존재와 서지 정보를 검색으로 하나씩 확인했다.
+- **그럴싸한 참고문헌 목록.** 본 논문의 이전 판의 참고문헌 일부는 저자가 AI에게 그럴듯한 목록을 만들어 달라고 요청해 얻은 것이었다. 그 항목들은 본문의 주장과 연결되지 않은 채 나열되어 있었다. 이번 개정에서는 본문이 실제로 인용하는 문헌만 남기고, 각 문헌의 존재와 서지 정보를 검색으로 하나씩 확인했다.
 
 이 경험은 두 가지를 시사한다. 첫째, 출처의 형식적 자연스러움은 그 출처의 실재성이나 본문과의 관련성을 보증하지 않는다. 둘째, 출처의 검증은 AI의 답이 아니라 독립된 경로(원문, 학술 데이터베이스)로 해야 한다. 이는 5.1절의 연구 순환에 추가한 독립 검증 단계와 같은 원리이다.
 
@@ -107,7 +110,7 @@ $$P(w_t \mid w_1, \dots, w_{t-1}; \theta)$$
 2. 변수의 이름을 바꿔도 같은 함수가 되는 대칭 함수(예: 4변수 XOR, 다수결)의 그림은 어떤 배치에서도 같다.
 3. 4변수 부울 함수 65,536개를 변수 순열 아래의 동치류로 세면 3,984개이다.
 
-(위 사실의 증명은 별도의 수학 논문에 있으나, 본 논문의 논증은 사실의 내용에만 의존하며 증명을 요구하지 않는다.)
+(위 사실의 증명은 자매 논문 「카르노맵 위의 4변수 부울 함수 공간의 군론적 분류」(Choi, 2026)에 있으나, 본 논문의 논증은 사실의 내용에만 의존하며 증명을 요구하지 않는다.)
 
 ### 3.2 6단계 인지 흐름 모델
 SRT는 연구가 생성되는 과정을 다음 6단계의 흐름으로 모델링한다.
@@ -185,7 +188,7 @@ SRT는 닫힌 이론이 아니라 열린 연구 프로그램이다. 대표적인
 - **설명 예측:** 증명 없이 "배후에 대칭군이 있을 것"이라는 확신이 생기는 인지적 기제는 무엇인가?
 - **표상 설계:** 특정 구조를 가장 투명하게 드러내는 표상 형식을 인지 부하 관점에서 최적화할 수 있는가?
 - **AI의 구조 발견:** AI가 인간의 지시 없이 표상만 보고 구조를 발견하여 가설을 낼 수 있는가?
-- **질문의 기원:** 70년간 교과서에 있던 도구에서 아무도 묻지 않았던 질문(변수 배치의 동치류)을 묻게 만드는 요인은 무엇인가?
+- **질문의 기원:** 수십 년간 교과서에 실려 온 도구에서, 저자가 검색한 범위에서는 선행 논의를 찾지 못한 질문(변수 배치의 동치류)을 묻게 만드는 요인은 무엇인가?
 - **학습 전이:** 개념 렌즈를 습득한 학습자는 다른 문제를 어떻게 다르게 보는가?
 
 ---
@@ -283,6 +286,7 @@ HARCT는 연구 저장소(Git)를 인간과 AI가 공유하는 외재화된 작�
   - 한 함수의 안정화군을 "$D_4$ (위수 4)"로 잘못 명명했고, 존재하지 않는 크기 24의 궤도를 서술했다.
   - 이전 단계의 관찰 논문에는 대칭 함수(Exactly-3, 4변수 XOR)의 그림이 변수 재배열로 이동하거나 변한다는 서술이 있었다. 그중 일부 그림은 변수 재배열이 아니라 축 라벨 순서(Gray 대 이진)를 바꾼 것이었다.
   - 이론 문서의 한 궤도 대표 함수가 잘못 옮겨 적혀 있었고(크기 4 궤도의 대표가 크기 12 궤도의 함수였다), 함수 클론의 정의 표기(상수 포함 여부)가 문서 간에 일치하지 않았으며, 참고문헌의 호수도 문서 간에 달랐다.
+  - 수학 논문의 포털 페이지에는 본문과 어긋난 표가 남아 있었다. 단조 함수의 생성 연산을 "AND, NOT"으로, 자기쌍대 함수의 생성 연산을 "NOT, AND, OR"로 적었으나 둘 다 틀렸다(단조 함수는 AND, OR와 상수로 생성되고, NOT, AND, OR는 모든 부울 함수를 생성한다). 본문을 고친 뒤 본문과 포털을 처음부터 끝까지 다시 읽는 점검(2026-10-10)에서 발견되었다. 본문과 포털 사이의 불일치도 저장소 표류의 한 형태이다.
 - **관찰:** 이 오류들은 다중 세션과 연구자의 검토를 거쳤음에도 남아 있었다. 발견의 계기는 "독자가 선행 지식 없이 따라갈 수 있어야 한다"는 요구였고, 이는 모든 주장을 처음부터 도출하고 재현하도록 강제했다.
 
 #### 사례의 종합
@@ -293,8 +297,9 @@ HARCT는 연구 저장소(Git)를 인간과 AI가 공유하는 외재화된 작�
 HARCT는 분산 인지(Hutchins, 1995)와 확장된 마음(Clark & Chalmers, 1998)과 개념적 영역이 겹친다. 삼요소 구조는 분산 인지와, 저장소를 인지 인프라로 보는 관점은 확장된 마음과 닮았다. 이 이론이 더하려는 것은 인간의 목표 기억과 AI의 단기 추론 사이의 비대칭, 그리고 산출물을 정보량이 아니라 맥락의 회복 가능성으로 평가하는 기준이다. 기존 문헌과의 구분과 새로움의 정도는 체계적인 문헌 조사 없이는 주장할 수 없다.
 
 - 오류의 전파: 에피소드 2, 3 참조. 인계 문서와 논문 원고에 대한 독립 검증이 필요하다.
+- 검토자의 과신: 사람은 자동화의 출력을 점검 없이 받아들이는 경향이 있다 (Parasuraman & Manzey, 2010). 구조화된 인계 문서가 이 경향을 강화할 가능성이 있으며, 독립 검증이 절차에 들어 있어야 하는 이유이다.
 - 문서 비대화와 낡은 정보의 누적은 새 세션의 맥락 복원을 방해할 수 있다.
-- 이 실천은 일반적인 소프트웨어 연구 관행(버전 관리, 문서화)과 유사하며, HARCT의 독자적 기여는 AI 세션의 휘발성을 전제로 이를 체계화한 점에 있다.
+- 이 실천은 일반적인 소프트웨어 연구 관행(버전 관리, 문서화) 및 개인 정보 관리 연구(Jones, 2007)와 유사하며, HARCT의 독자적 기여는 AI 세션의 휘발성을 전제로 이를 체계화한 점에 있다.
 
 ---
 
@@ -329,7 +334,7 @@ SRT는 인간이 구조를 인식하고 질문을 던지는 과정을, HARCT는 
 2. AI와 대화하며 직관을 수학적 기호로 형식화한다.
 3. AI의 결과를 비판적으로 점검하고, 독립 계산으로 확인하며, 반박하거나 증명한다.
 
-학생의 AI 활용 수준은 세 단계로 구분하여 설계할 수 있다. 1단계는 도구(계산이나 도표 생성의 대행), 2단계는 검증자(결과의 교차 검토와 반례 탐색), 3단계는 공동 탐구자(질문 생성과 가설 정제)이다. 이 구분은 저자의 프로젝트 기록에서 제안된 것이며 검증되지 않았다.
+학생의 AI 활용 수준은 세 단계로 구분하여 설계할 수 있다. 1단계는 도구(계산이나 도표 생성의 대행), 2단계는 검증자(결과의 교차 검토와 반례 탐색), 3단계는 공동 탐구자(질문 생성과 가설 정제)이다. 이 구분은 저자의 프로젝트 기록에서 제안된 것이며 검증되지 않았다. AI 리터러시의 역량 틀(Long & Magerko, 2020)과의 대응은 확인하지 않았다.
 
 ### 6.4 검증을 위한 파일럿 설계
 이 모형의 효과는 입증되지 않았다. 다음의 파일럿 연구를 제안한다.
@@ -366,19 +371,26 @@ SRT는 인간이 구조를 인식하고 질문을 던지는 과정을, HARCT는 
 
 ## 참고문헌 / References
 
-1. Bender, E. M., & Koller, A. (2020). Climbing towards NLU: On meaning, form, and understanding in the age of data. *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*, 5185–5198.
-2. Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2), 121–152.
-3. Clark, A., & Chalmers, D. (1998). The extended mind. *Analysis*, 58(1), 7–19.
-4. COPE (Committee on Publication Ethics). Authorship and AI tools (position statement); ICMJE. Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals (AI-assisted technology section).
-5. Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. *American Psychologist*, 34(10), 906–911.
-6. Gentner, D. (1983). Structure-mapping: A theoretical framework for analogy. *Cognitive Science*, 7(2), 155–170.
-7. Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.
-8. Ji, Z., Lee, N., Frieske, R., et al. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys*, 55(12), Article 248.
-9. Kadavath, S., et al. (2022). Language Models (Mostly) Know What They Know. *arXiv:2207.05221*.
-10. Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work. *Educational Psychologist*, 41(2), 75–86.
-11. Larkin, J. H., & Simon, H. A. (1987). Why a diagram is (sometimes) worth ten thousand words. *Cognitive Science*, 11(1), 65–100.
-12. Liu, N. F., Lin, K., Hewitt, J., et al. (2024). Lost in the middle: How language models use long contexts. *Transactions of the Association for Computational Linguistics*, 12, 157–173.
-13. Packer, C., Wooders, S., Lin, K., et al. (2023). MemGPT: Towards LLMs as operating systems. *arXiv:2310.08560*.
-14. Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. *Cognitive Science*, 12(2), 257–285.
-15. Vaswani, A., et al. (2017). Attention is All You Need. *Advances in Neural Information Processing Systems*, 30.
-16. Walters, W. H., & Wilder, E. I. (2023). Fabrication and errors in the bibliographic citations generated by ChatGPT. *Scientific Reports*, 13. https://doi.org/10.1038/s41598-023-41032-5
+1. Amershi, S., Weld, D., Vorvoreanu, M., et al. (2019). Guidelines for human-AI interaction. *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*. https://doi.org/10.1145/3290605.3300233
+2. Bender, E. M., & Koller, A. (2020). Climbing towards NLU: On meaning, form, and understanding in the age of data. *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*, 5185–5198.
+3. Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2), 121–152.
+4. Choi, J. (2026). 카르노맵 위의 4변수 부울 함수 공간의 군론적 분류 (Group-theoretic classification of 4-variable Boolean function spaces on Karnaugh maps). 자매 논문. https://github.com/inha20/7GroupTheoryBooleanUnification
+5. Clark, A., & Chalmers, D. (1998). The extended mind. *Analysis*, 58(1), 7–19.
+6. COPE (Committee on Publication Ethics). Authorship and AI tools (position statement); ICMJE. Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals (AI-assisted technology section).
+7. Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. *American Psychologist*, 34(10), 906–911.
+8. Gentner, D. (1983). Structure-mapping: A theoretical framework for analogy. *Cognitive Science*, 7(2), 155–170.
+9. Huang, J., Chen, X., Mishra, S., et al. (2024). Large language models cannot self-correct reasoning yet. *International Conference on Learning Representations (ICLR 2024)*. arXiv:2310.01798.
+10. Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.
+11. Ji, Z., Lee, N., Frieske, R., et al. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys*, 55(12), Article 248.
+12. Jones, W. (2007). Personal information management. *Annual Review of Information Science and Technology*, 41(1), 453–504.
+13. Kadavath, S., et al. (2022). Language Models (Mostly) Know What They Know. *arXiv:2207.05221*.
+14. Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work. *Educational Psychologist*, 41(2), 75–86.
+15. Larkin, J. H., & Simon, H. A. (1987). Why a diagram is (sometimes) worth ten thousand words. *Cognitive Science*, 11(1), 65–100.
+16. Liu, N. F., Lin, K., Hewitt, J., et al. (2024). Lost in the middle: How language models use long contexts. *Transactions of the Association for Computational Linguistics*, 12, 157–173.
+17. Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems*.
+18. Packer, C., Wooders, S., Lin, K., et al. (2023). MemGPT: Towards LLMs as operating systems. *arXiv:2310.08560*.
+19. Parasuraman, R., & Manzey, D. (2010). Complacency and bias in human use of automation: An attentional integration. *Human Factors*, 52(3), 381–410. https://doi.org/10.1177/0018720810376055
+20. Sharma, M., Tong, M., Korbak, T., et al. (2023). Towards understanding sycophancy in language models. *arXiv:2310.13548*.
+21. Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. *Cognitive Science*, 12(2), 257–285.
+22. Vaswani, A., et al. (2017). Attention is All You Need. *Advances in Neural Information Processing Systems*, 30.
+23. Walters, W. H., & Wilder, E. I. (2023). Fabrication and errors in the bibliographic citations generated by ChatGPT. *Scientific Reports*, 13. https://doi.org/10.1038/s41598-023-41032-5
