@@ -60,7 +60,9 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
 ```
 8StructuralThinkingInAIEra/
 ├─ README.md                               ← 저장소 안내 (본 문서)
+├─ LICENSE                                 ← 이용 조건 (All rights reserved)
 ├─ index.html                              ← 대화형 웹 논문 포털
+├─ images/                                 ← 논문 그림 6장 (7번 저장소 그림의 복사본, 출처는 images/README.md)
 └─ paper/
    ├─ StructuralThinkingInAIEra.md         ← 논문 전문
    └─ 01_StructuralThinkingInAIEra.pdf     ← 논문 PDF (원고에서 생성)
@@ -92,4 +94,4 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
 ```
 
 ---
-© 2026 Jonghun Choi (최종훈). All rights reserved.
+© 2026 Jonghun Choi (최종훈). All rights reserved. 이용 조건은 [LICENSE](LICENSE)를 참조하세요.

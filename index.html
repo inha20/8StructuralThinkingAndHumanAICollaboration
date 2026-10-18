@@ -219,7 +219,7 @@
 
   <div class="action-bar">
     <a class="btn btn-primary" href="paper/StructuralThinkingInAIEra.md" download>📄 논문 원고 다운로드</a>
-    <a class="btn btn-ghost" href="paper/01_StructuralThinkingInAIEra.pdf" download>📄 논문 PDF (19p · 450KB)</a>
+    <a class="btn btn-ghost" href="paper/01_StructuralThinkingInAIEra.pdf" download>📄 논문 PDF (20p · 487KB)</a>
     <a class="btn btn-ghost" href="https://github.com/inha20/8StructuralThinkingInAIEra" target="_blank" rel="noopener">⭐ GitHub</a>
     <button class="btn btn-ghost" onclick="copyBibtex8()">📋 BibTeX 복사</button>
   </div>
@@ -233,7 +233,7 @@
         생성형 AI가 지식 생산의 주요 도구로 부상한 현재, 인간 연구자의 역할—특히 구조를 인식하고 연구 질문을 만드는 일—을 다시 살펴볼 필요가 생겼다.
         본 논문은 <strong>구조 인식 이론(SRT)</strong>과 <strong>인간-AI 연구 연속성 이론(HARCT)</strong>을 제안하여, 생성형 AI 시대 인간 연구자의 역할로 거론되는
         <em>유의성 판단</em>과 <em>목표 보존</em>을 가설로 정리한다.
-        카르노맵 대칭 분류 프로젝트에 대한 단일 사례 연구(n=1)로 틀의 적용 가능성을 탐색하고, 사례에서 드러난 오류 전파의 위험을 반영하여 독립 검증 단계를 추가한다.
+        카르노맵 대칭 분류 프로젝트에 대한 단일 사례 연구(n=1)로 틀의 적용 가능성을 탐색하고, 사례에서 드러난 오류 전파의 위험을 반영하여 독립 검증 단계를 추가한다(이 논문의 점검에도 같은 계열 AI가 쓰여 완전한 독립 검증은 아니다).
         SRT의 10개 가설(H1–H10)은 아직 실증되지 않았으며, 일부 가설에 대한 검증 가능한 예측과 교육 파일럿 설계를 제시한다.
       </p>
       <div style="margin-top:1rem;display:flex;flex-wrap:wrap;gap:.4rem;">
@@ -264,6 +264,22 @@
       </div>
     </article>
 
+    <!-- Figures: copies of figures from Paper 7 (see images/README.md) -->
+    <article class="card grid-wide">
+      <div class="card-title">🖼️ 그림 (사례의 수학적 배경, 3.1절)</div>
+      <div style="display:flex;flex-wrap:wrap;gap:1.2rem;align-items:flex-start;">
+        <figure style="margin:0;flex:1 1 220px;max-width:300px;"><img src="images/fig13_parity_xor_gray.png" alt="4변수 XOR, Gray 축 순서: 체커보드" loading="lazy" style="width:100%;height:auto;background:#fff;border-radius:6px;"><figcaption style="font-size:.8rem;color:var(--text-muted);margin-top:.4rem;">그림 1 (왼쪽). 4변수 XOR, Gray 축 순서: 체커보드.</figcaption></figure>
+        <figure style="margin:0;flex:1 1 220px;max-width:300px;"><img src="images/fig14_parity_xor_binary.png" alt="4변수 XOR, 이진 축 순서: 이중대각" loading="lazy" style="width:100%;height:auto;background:#fff;border-radius:6px;"><figcaption style="font-size:.8rem;color:var(--text-muted);margin-top:.4rem;">그림 1 (오른쪽). 같은 함수, 이진 축 순서: 이중대각. 모양의 차이는 축 라벨 순서에서 온다.</figcaption></figure>
+        <figure style="margin:0;flex:1 1 220px;max-width:300px;"><img src="images/fig17_layers.png" alt="칸별 해밍 레이어" loading="lazy" style="width:100%;height:auto;background:#fff;border-radius:6px;"><figcaption style="font-size:.8rem;color:var(--text-muted);margin-top:.4rem;">그림 2. 칸별 해밍 레이어(L1~L5는 1의 개수 0~4).</figcaption></figure>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:1.2rem;align-items:flex-start;margin-top:1rem;">
+        <figure style="margin:0;flex:1 1 200px;max-width:260px;"><img src="images/fig07_xorplane_ab_cd.png" alt="(A xor B)(C xor D), 배치 AB/CD" loading="lazy" style="width:100%;height:auto;background:#fff;border-radius:6px;"><figcaption style="font-size:.8rem;color:var(--text-muted);margin-top:.4rem;">그림 3. (A⊕B)(C⊕D), 배치 AB/CD.</figcaption></figure>
+        <figure style="margin:0;flex:1 1 200px;max-width:260px;"><img src="images/fig08_xorplane_ac_bd.png" alt="(A xor B)(C xor D), 배치 AC/BD" loading="lazy" style="width:100%;height:auto;background:#fff;border-radius:6px;"><figcaption style="font-size:.8rem;color:var(--text-muted);margin-top:.4rem;">같은 함수, 배치 AC/BD.</figcaption></figure>
+        <figure style="margin:0;flex:1 1 200px;max-width:260px;"><img src="images/fig09_xorplane_ad_bc.png" alt="(A xor B)(C xor D), 배치 AD/BC" loading="lazy" style="width:100%;height:auto;background:#fff;border-radius:6px;"><figcaption style="font-size:.8rem;color:var(--text-muted);margin-top:.4rem;">같은 함수, 배치 AD/BC (AC/BD와 같은 그림).</figcaption></figure>
+      </div>
+      <p style="margin-top:.9rem;font-size:.8rem;color:var(--text-faint);">그림은 자매 논문(Paper 7)의 그림 파일을 그대로 복사한 것이다(images/README.md).</p>
+    </article>
+
     <!-- HARCT 4 Components -->
     <article class="card">
       <div class="card-title">🔗 HARCT의 주요 구성요소 (제안·가설)</div>
@@ -271,7 +287,7 @@
         <div class="harct-card">
           <div class="harct-num">① 목표 보존</div>
           <div class="harct-title">Goal Preservation</div>
-          <div class="harct-desc">정보가 보존되어도 목표가 사라지면 연구는 방향을 잃는다는 관찰에서 제안한 구성요소.</div>
+          <div class="harct-desc">정보가 보존되어도 목표가 사라지면 연구는 방향을 잃는다는 저자의 인상에서 제안한 구성요소. 사례(4.7절)가 이를 직접 뒷받침하지는 않는다.</div>
         </div>
         <div class="harct-card">
           <div class="harct-num">② 삼요소 아키텍처</div>
@@ -311,7 +327,7 @@
         </div>
       </div>
       <p style="margin-top:.9rem;font-size:.8rem;color:var(--text-faint);">
-        가설이며 실증되지 않았다. 전체 능력의 우열이 아니라 <strong>역할</strong>의 차이를 가정한다.
+        가설이며 실증되지 않았다. 전체 능력의 우열이 아니라 <strong>역할</strong>의 차이를 가정한다. 이 표는 이론이 제안하는 분업이며, 사례의 실제 분담(예: 가설 생성)과 다른 부분이 있다.
       </p>
     </article>
 
@@ -397,7 +413,7 @@
 </main>
 
 <footer class="site-footer">
-  <div class="container">Paper 8 · Structural Thinking in AI Era · Jonghun Choi (최종훈) · Structure Recognition Research Program</div>
+  <div class="container">Paper 8 · Structural Thinking in AI Era · Jonghun Choi (최종훈) · Structure Recognition Research Program · © 2026 · All rights reserved</div>
 </footer>
 
 <script>
