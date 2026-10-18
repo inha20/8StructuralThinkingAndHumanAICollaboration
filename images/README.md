@@ -1,6 +1,6 @@
 # images/ — 그림 출처
 
-이 폴더의 그림 6장은 자매 논문 저장소 [7GroupTheoryBooleanUnification](https://github.com/inha20/7GroupTheoryBooleanUnification)의 images/에 있는 파일의 **바이트 단위 복사본**이다. 이 저장소에서 새로 만든 그림은 없다. 그림의 격자 값은 7번 저장소의 scripts/verify_figures.py가 논문의 정의로 직접 만든 카르노맵과 대조하며(통과), 그림은 논문 3.1절의 설명을 보조할 뿐이다. 캡션은 이 논문에서 새로 썼다. 7번 저장소의 그림은 더 이전의 연구 저장소(1KMapStructureInvariance, 2SymmetricBooleanFunctionMinorThesis)에서 온 것이며 출처는 7번 저장소의 images/README.md에 있다.
+이 폴더의 그림 6장은 자매 논문 저장소 [7KarnaughGroupClassification](https://github.com/inha20/7KarnaughGroupClassification)의 images/에 있는 파일의 **바이트 단위 복사본**이다. 이 저장소에서 새로 만든 그림은 없다. 그림의 격자 값은 7번 저장소의 scripts/verify_figures.py가 논문의 정의로 직접 만든 카르노맵과 대조하며(통과), 그림은 논문 3.1절의 설명을 보조할 뿐이다. 캡션은 이 논문에서 새로 썼다. 7번 저장소의 그림은 더 이전의 연구 저장소(1KMapStructureInvariance, 2SymmetricBooleanFunctionMinorThesis)에서 온 것이며 출처는 7번 저장소의 images/README.md에 있다.
 
 | 파일 | MD5 | 7번 저장소와 비교 |
 |:---|:---|:---|

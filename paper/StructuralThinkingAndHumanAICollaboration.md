@@ -5,7 +5,7 @@
 **저자:** 최종훈 (Jonghun Choi)  
 인하공업전문대학 졸업 · 독립 연구자  
 **연락처:** cjh3cjh@naver.com  
-**GitHub:** [github.com/inha20/8StructuralThinkingInAIEra](https://github.com/inha20/8StructuralThinkingInAIEra)  
+**GitHub:** [github.com/inha20/8StructuralThinkingAndHumanAICollaboration](https://github.com/inha20/8StructuralThinkingAndHumanAICollaboration)  
 
 ---
 
@@ -299,7 +299,7 @@ HARCT는 연구 저장소(Git)를 인간과 AI가 공유하는 외재화된 작�
 
 ### 4.7 사례 연구: 카르노맵 대칭 분류 프로젝트
 
-**범위와 자료.** 한 명의 연구자(본 논문 저자)가 AI 어시스턴트와 다중 세션으로 4변수 카르노맵의 대칭 분류를 연구했다. 자료는 저장소의 커밋 기록과 인계 문서이며, 대화 로그 원문은 공개하지 않는다. 저장소는 모두 GitHub의 inha20 계정에 공개되어 있다. 이 사례의 기록은 8개 저장소에 걸쳐 있다. 이전 단계의 연구 저장소 여섯 곳(1KMapStructureInvariance, 2SymmetricBooleanFunctionMinorThesis, 3VariableRearrangementInvarianceMinorThesis, 4StructureRecognitionTheory, 5HumanAIResearchCollaboration, 6BooleanFunctionSpaceTheory)과 자매 수학 논문(7GroupTheoryBooleanUnification), 본 논문(8StructuralThinkingInAIEra)이다. 2026-10-17 기준으로 가장 이른 커밋은 2026-05-31이고 커밋은 모두 약 350개이다. 이 저장소들은 이력 보존을 위해 삭제하지 않는다. 아래 서술은 이를 바탕으로 한 저자의 회고적 재구성이며, 방법으로는 연구자 자신이 대상인 자기 민족지적(autoethnographic) 사례 연구에 가깝다. 따라서 사례는 틀의 적용 가능성을 보여주는 탐색적 관찰이다. 에피소드 1과 2의 구체적 장면(질문의 문구, 세션 경위)은 저자의 회고이며 공개된 기록으로 교차 확인되지 않았다. 다만 에피소드 1의 가설은 같은 취지의 날짜가 있는 노트가 저장소에 남아 있다. 에피소드 2의 계산 오류와 에피소드 3의 오류들은 저장소 이력과 재계산으로 확인할 수 있다.
+**범위와 자료.** 한 명의 연구자(본 논문 저자)가 AI 어시스턴트와 다중 세션으로 4변수 카르노맵의 대칭 분류를 연구했다. 자료는 저장소의 커밋 기록과 인계 문서이며, 대화 로그 원문은 공개하지 않는다. 저장소는 모두 GitHub의 inha20 계정에 공개되어 있다. 이 사례의 기록은 8개 저장소에 걸쳐 있다. 이전 단계의 연구 저장소 여섯 곳(1KMapStructureInvariance, 2SymmetricBooleanFunctionMinorThesis, 3VariableRearrangementInvarianceMinorThesis, 4StructureRecognitionTheory, 5HumanAIResearchCollaboration, 6BooleanFunctionSpaceTheory)과 자매 수학 논문(7KarnaughGroupClassification), 본 논문(8StructuralThinkingAndHumanAICollaboration)이다. 2026-10-17 기준으로 가장 이른 커밋은 2026-05-31이고 커밋은 모두 약 350개이다. 이 저장소들은 이력 보존을 위해 삭제하지 않는다. 아래 서술은 이를 바탕으로 한 저자의 회고적 재구성이며, 방법으로는 연구자 자신이 대상인 자기 민족지적(autoethnographic) 사례 연구에 가깝다. 따라서 사례는 틀의 적용 가능성을 보여주는 탐색적 관찰이다. 에피소드 1과 2의 구체적 장면(질문의 문구, 세션 경위)은 저자의 회고이며 공개된 기록으로 교차 확인되지 않았다. 다만 에피소드 1의 가설은 같은 취지의 날짜가 있는 노트가 저장소에 남아 있다. 에피소드 2의 계산 오류와 에피소드 3의 오류들은 저장소 이력과 재계산으로 확인할 수 있다.
 
 **프로젝트의 AI 역할 분담 (저자의 기록).** ChatGPT는 연구 토론, 이론 개발, 개념 통합, 가설 생성을, Claude는 저장소 조직, 문서화 정제, 구조 편집을, ANTIGRAVITY는 대규모 저장소 분석, 대량 문서 처리, 장문 생성을 주로 맡았다. 이 분담은 사전에 계획된 것이 아니라 장기 협력 중에 나타났다. 4.4절의 표는 이론이 제안하는 분업이고 이 분담은 사례에서 실제로 나타난 것이므로, 둘이 일치하지 않는 부분(가설 생성)이 있다. 협력 중에는 연구 모드로 전환하는 정형화된 문구(예: "지금 내가 놓치고 있는 것은?", "연구 프로그램 관점에서 보면?", "저장할 거 저장해줘.")가 비공식 협력 프로토콜로 자리 잡았다.
 
@@ -417,7 +417,7 @@ SRT는 인간이 구조를 인식하고 질문을 던지는 과정을, HARCT는 
 1. Amershi, S., Weld, D., Vorvoreanu, M., et al. (2019). Guidelines for human-AI interaction. *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*. https://doi.org/10.1145/3290605.3300233
 2. Bender, E. M., & Koller, A. (2020). Climbing towards NLU: On meaning, form, and understanding in the age of data. *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*, 5185–5198.
 3. Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. *Cognitive Science*, 5(2), 121–152.
-4. Choi, J. (2026). 카르노맵 위의 4변수 부울 함수 공간의 군론적 분류 (Group-theoretic classification of 4-variable Boolean function spaces on Karnaugh maps). 자매 논문. https://github.com/inha20/7GroupTheoryBooleanUnification
+4. Choi, J. (2026). 카르노맵 위의 4변수 부울 함수 공간의 군론적 분류 (Group-theoretic classification of 4-variable Boolean function spaces on Karnaugh maps). 자매 논문. https://github.com/inha20/7KarnaughGroupClassification
 5. Clark, A., & Chalmers, D. (1998). The extended mind. *Analysis*, 58(1), 7–19.
 6. COPE (Committee on Publication Ethics). Authorship and AI tools (position statement); ICMJE. Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals (AI-assisted technology section).
 7. Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. *American Psychologist*, 34(10), 906–911.

@@ -1,11 +1,11 @@
-# 8StructuralThinkingInAIEra
+# 8StructuralThinkingAndHumanAICollaboration
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue?style=flat-square&logo=github)](https://inha20.github.io/8StructuralThinkingInAIEra/)
-[![Field](https://img.shields.io/badge/Field-Cognitive%20Science%20%7C%20AI%20Education-orange?style=flat-square)](https://inha20.github.io/8StructuralThinkingInAIEra/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue?style=flat-square&logo=github)](https://inha20.github.io/8StructuralThinkingAndHumanAICollaboration/)
+[![Field](https://img.shields.io/badge/Field-Cognitive%20Science%20%7C%20AI%20Education-orange?style=flat-square)](https://inha20.github.io/8StructuralThinkingAndHumanAICollaboration/)
 **논문 제목:** 생성형 AI 시대의 구조적 사고와 인간-AI 연구 협력  
 **Title:** Structural Thinking and Human-AI Research Collaboration in the Generative AI Era: A Framework Proposal, a Case Study, and Educational Implications  
 **저자:** 최종훈 (Jonghun Choi) — 인하공업전문대학 졸업 · 독립 연구자  
-**GitHub Pages:** [웹 논문 및 대화형 포털 보기](https://inha20.github.io/8StructuralThinkingInAIEra/)  
+**GitHub Pages:** [웹 논문 및 대화형 포털 보기](https://inha20.github.io/8StructuralThinkingAndHumanAICollaboration/)  
 
 > 이 저장소의 논문은 같은 저자의 다른 저장소를 읽지 않아도 정의, 가설, 사례를 따라갈 수 있게 썼습니다. 사례에 쓰이는 수학 용어는 본문에서 풀어 쓰며, 증명은 자매 논문(7번)에 있습니다.
 
@@ -58,14 +58,14 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
 ## 📂 저장소 구조 (Repository Structure)
 
 ```
-8StructuralThinkingInAIEra/
+8StructuralThinkingAndHumanAICollaboration/
 ├─ README.md                               ← 저장소 안내 (본 문서)
 ├─ LICENSE                                 ← 이용 조건 (All rights reserved)
 ├─ index.html                              ← 대화형 웹 논문 포털
 ├─ images/                                 ← 논문 그림 6장 (7번 저장소 그림의 복사본, 출처는 images/README.md)
 └─ paper/
-   ├─ StructuralThinkingInAIEra.md         ← 논문 전문
-   └─ 01_StructuralThinkingInAIEra.pdf     ← 논문 PDF (원고에서 생성)
+   ├─ StructuralThinkingAndHumanAICollaboration.md         ← 논문 전문
+   └─ 01_StructuralThinkingAndHumanAICollaboration.pdf     ← 논문 PDF (원고에서 생성)
 ```
 
 ---
@@ -76,7 +76,7 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
 
 | 저장소 | 내용 |
 |:---|:---|
-| [7GroupTheoryBooleanUnification](https://github.com/inha20/7GroupTheoryBooleanUnification) | 사례에 쓰인 수학 논문 (카르노맵 대칭 분류) |
+| [7KarnaughGroupClassification](https://github.com/inha20/7KarnaughGroupClassification) | 사례에 쓰인 수학 논문 (카르노맵 대칭 분류) |
 | [Research-Portfolio](https://github.com/inha20/Research-Portfolio) | 전체 연구 프로그램 포털 |
 
 ---
@@ -89,7 +89,7 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
   title        = {Structural Thinking and Human-AI Research Collaboration in the Generative AI Era},
   howpublished = {Independent Interdisciplinary Research Program Preprint},
   year      = {2026},
-  url       = {https://github.com/inha20/8StructuralThinkingInAIEra}
+  url       = {https://github.com/inha20/8StructuralThinkingAndHumanAICollaboration}
 }
 ```
 
