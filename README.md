@@ -7,7 +7,7 @@
 **저자:** 최종훈 (Jonghun Choi) — 인하공업전문대학 졸업 · 독립 연구자  
 **GitHub Pages:** [웹 논문 및 대화형 포털 보기](https://inha20.github.io/8StructuralThinkingInAIEra/)  
 
-> 이 저장소의 논문은 자기완결적입니다. 같은 저자의 다른 저장소를 읽지 않아도 정의, 가설, 사례를 본문에서 따라갈 수 있습니다.
+> 이 저장소의 논문은 같은 저자의 다른 저장소를 읽지 않아도 정의, 가설, 사례를 따라갈 수 있게 썼습니다. 사례에 쓰이는 수학 용어는 본문에서 풀어 쓰며, 증명은 자매 논문(7번)에 있습니다.
 
 ---
 
@@ -32,21 +32,26 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
 ### SRT 10개 가설 (요약)
 | 번호 | 가설 | 핵심 명제 |
 |:---:|:---|:---|
-| H1 | Structure Discoverer | 인간 인지는 요소보다 요소 사이의 구조를 우선 포착하도록 편향되어 있다 |
-| H2 | Representation Transformation | 표상이 바뀌면 인지 부하와 통찰이 달라진다 |
-| H3 | Attention Filter | 연구자는 대칭의 붕괴나 극단적 규칙성에 주의를 집중한다 |
-| H4 | Significance Filter | 기존 이론을 재편할 잠재력이 있는 패턴을 선별한다 |
-| H5 | Explanation Anticipation | 패턴을 발견하면 설명 원리가 있다고 기대한다 |
-| H6 | Explanatory Significance | 연구의 가치는 설명력으로 결정된다 |
-| H7 | Mature Structure Discoverer | 훈련된 연구자는 구조 템플릿을 새 문제에 투영한다 |
-| H8 | Concept-as-Lens | 정립된 개념은 새 대상을 보는 렌즈가 된다 |
-| H9 | Concept Evolution | 연구 발전은 개념적 렌즈의 정교화 과정이다 |
-| H10 | Generative Concept | 완성도 높은 개념은 새로운 연구 질문을 만든다 |
+| H1 | Structure Discoverer | 인간은 구조 발견(구조를 찾고, 질문을 만들고, 의미를 부여하고, 연구 방향을 고르는 일)에서 비교우위를 가질 수 있다. 전체 능력의 차이가 아니라 **역할의 차이**를 뜻한다 |
+| H2 | Representation Transformation | 어떤 어려운 문제는 계산량을 줄여서가 아니라 표상을 바꿈으로써(예: 논리식에서 카르노맵으로) 다루기 쉬워진다 |
+| H3 | Attention Filter | 인간은 모든 패턴을 조사하지 않으며, 조사 이전에 선택 과정이 작동한다. 어떤 패턴이 통과하는지는 열린 문제이다 |
+| H4 | Significance Filter | 주의 이후에 구조가 조사할 가치가 있는지를 평가하는 암묵적 필터가 작동한다. 통과 조건의 후보는 압축성, 예측력, 일반화력, 설명 견인력이다 |
+| H5 | Explanation Anticipation | 인간은 설명을 찾기 전에 설명이 존재하리라고 예상한다. 패턴이 "무작위로 보이지 않는다"는 감각이 탐색에 선행한다 |
+| H6 | Explanatory Significance | 연구는 구조 발견 자체가 아니라 구조가 지닌 설명적 잠재력의 감지에서 시작된다 |
+| H7 | Mature Structure Discoverer (H1의 성숙판) | 인간의 핵심 우위는 패턴 인식 자체가 아니라, 어떤 구조가 설명적 유의성을 지니는지 평가하는 능력일 수 있다 |
+| H8 | Concept-as-Lens | 개념은 관찰의 렌즈로 작동한다. 개념을 얻으면 구조로 인식할 수 있는 대상이 달라질 수 있다 |
+| H9 | Concept Evolution | 연구는 개념을 낳고, 개념은 확장된 지각을 통해 새로운 연구를 낳는다 |
+| H10 | Generative Concept | 개념마다 생성력이 다르다. 어떤 개념은 지각을 더 넓고 오래 확장한다 |
 
 이 가설들은 **아직 실증되지 않았습니다.** 논문 3.4절에 검증 가능한 예측을 제시합니다.
 
 ### 공생적 연구 순환 (5단계)
-인간 직관 → AI 형식화 → AI 연역·계산과 인간 검토 → **독립 검증** → 인간 가치 부여 → 분산 기억 저장
+
+1. 인간 직관 → AI 형식화
+2. AI 연역·계산 → 인간 검토
+3. **독립 검증** (사례 연구에서 도출되어 추가된 단계)
+4. 인간 가치 부여 → 연구 확장
+5. 공동 체계화 → 분산 기억 저장
 
 ---
 
@@ -57,14 +62,15 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
 ├─ README.md                               ← 저장소 안내 (본 문서)
 ├─ index.html                              ← 대화형 웹 논문 포털
 └─ paper/
-   └─ StructuralThinkingInAIEra.md         ← 논문 전문
+   ├─ StructuralThinkingInAIEra.md         ← 논문 전문
+   └─ 01_StructuralThinkingInAIEra.pdf     ← 논문 PDF (원고에서 생성)
 ```
 
 ---
 
 ## 🌐 관련 저장소 (선택 사항, 읽지 않아도 됨)
 
-이 논문은 저자의 **초기 연구 노트**(저장소 1~6)에서 출발했지만 그 내용을 전제로 하지 않습니다. 아래는 본 논문의 사례로 쓰인 수학 연구와 연구 프로그램 포털입니다.
+이 논문은 독립적으로 읽을 수 있습니다. 아래는 본 논문의 사례로 쓰인 수학 연구와 연구 프로그램 포털입니다. 사례의 근거 기록이 있는 저장소의 이름과 커밋은 논문 4.7절에 적었습니다.
 
 | 저장소 | 내용 |
 |:---|:---|
@@ -76,10 +82,10 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
 ## 📜 인용 정보 (Citation)
 
 ```bibtex
-@article{choi2026structuralthinking,
-  author    = {Choi, Jonghun},
-  title     = {Structural Thinking and Human-AI Research Collaboration in the Generative AI Era},
-  journal   = {Independent Interdisciplinary Research Program Preprint},
+@misc{choi2026structuralthinking,
+  author       = {Choi, Jonghun},
+  title        = {Structural Thinking and Human-AI Research Collaboration in the Generative AI Era},
+  howpublished = {Independent Interdisciplinary Research Program Preprint},
   year      = {2026},
   url       = {https://github.com/inha20/8StructuralThinkingInAIEra}
 }
