@@ -86,7 +86,7 @@ Structural thinking, Generative AI, Human-AI collaboration, Structure Recognitio
 ```bibtex
 @misc{choi2026structuralthinking,
   author       = {Choi, Jonghun},
-  title        = {Structural Thinking and Human-AI Research Collaboration in the Generative AI Era},
+  title        = {Structural Thinking and Human-AI Research Collaboration in the Generative AI Era: A Framework Proposal, a Case Study, and Educational Implications},
   howpublished = {Independent Interdisciplinary Research Program Preprint},
   year      = {2026},
   url       = {https://github.com/inha20/8StructuralThinkingAndHumanAICollaboration}

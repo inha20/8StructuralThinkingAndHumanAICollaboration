@@ -13,6 +13,6 @@
 
 | 파일 | 논문 8의 그림 |
 |:---|:---|
-| ig13_parity_xor_gray.png, ig14_parity_xor_binary.png | 그림 1 (4변수 XOR: Gray 축 순서의 체커보드와 이진 축 순서의 이중대각) |
-| ig17_layers.png | 그림 2 (칸별 해밍 레이어) |
-| ig07_xorplane_ab_cd.png, ig08_xorplane_ac_bd.png, ig09_xorplane_ad_bc.png | 그림 3 (같은 함수를 세 대표 배치로 그린 그림) |
+| fig13_parity_xor_gray.png, fig14_parity_xor_binary.png | 그림 1 (4변수 XOR: Gray 축 순서의 체커보드와 이진 축 순서의 이중대각) |
+| fig17_layers.png | 그림 2 (칸별 해밍 레이어) |
+| fig07_xorplane_ab_cd.png, fig08_xorplane_ac_bd.png, fig09_xorplane_ad_bc.png | 그림 3 (같은 함수를 세 대표 배치로 그린 그림) |
