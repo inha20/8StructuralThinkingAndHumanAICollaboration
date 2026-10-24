@@ -4,7 +4,7 @@
 [![Field](https://img.shields.io/badge/Field-Cognitive%20Science%20%7C%20AI%20Education-orange?style=flat-square)](https://inha20.github.io/8StructuralThinkingAndHumanAICollaboration/)
 **논문 제목:** 생성형 AI 시대의 구조적 사고와 인간-AI 연구 협력  
 **Title:** Structural Thinking and Human-AI Research Collaboration in the Generative AI Era: A Framework Proposal, a Case Study, and Educational Implications  
-**저자:** 최종훈 (Jonghun Choi) — 인하공업전문대학 졸업 · 독립 연구자  
+**저자:** 최종훈 (Jonghun Choi) — 인하공업전문대학 2학년 재학 · 독립 연구자  
 **GitHub Pages:** [웹 논문 및 대화형 포털 보기](https://inha20.github.io/8StructuralThinkingAndHumanAICollaboration/)  
 
 > 이 저장소의 논문은 같은 저자의 다른 저장소를 읽지 않아도 정의, 가설, 사례를 따라갈 수 있게 썼습니다. 사례에 쓰이는 수학 용어는 본문에서 풀어 쓰며, 증명은 자매 논문(7번)에 있습니다.

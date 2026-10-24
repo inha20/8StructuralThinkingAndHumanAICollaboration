@@ -3,7 +3,7 @@
 **Structural Thinking and Human-AI Research Collaboration in the Generative AI Era: A Framework Proposal, a Case Study, and Educational Implications**
 
 **저자:** 최종훈 (Jonghun Choi)  
-인하공업전문대학 졸업 · 독립 연구자  
+인하공업전문대학 2학년 재학 · 독립 연구자  
 **연락처:** cjh3cjh@naver.com  
 **GitHub:** [github.com/inha20/8StructuralThinkingAndHumanAICollaboration](https://github.com/inha20/8StructuralThinkingAndHumanAICollaboration)  
 
